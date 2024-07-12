@@ -1,3 +1,4 @@
+# No PasswordAuthentication using puppet
 file_line { 'Turn_off_passwd_auth':
   path    => '/etc/ssh/ssh_config',
   line    => 'PasswordAuthentication no',
